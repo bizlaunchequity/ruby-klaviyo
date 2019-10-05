@@ -1,6 +1,7 @@
 require 'open-uri'
 require 'base64'
 require 'json'
+require 'rest-client'
 
 module Klaviyo
   class KlaviyoError < StandardError; end
