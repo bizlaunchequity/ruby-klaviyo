@@ -11,7 +11,6 @@ Gem::Specification.new do |s|
   s.files       = files
   s.homepage = 'https://www.klaviyo.com/'
   s.require_path = 'lib'
-  s.has_rdoc    = false
   s.add_dependency 'json'
   s.add_dependency 'rack'
   s.add_dependency 'escape'
